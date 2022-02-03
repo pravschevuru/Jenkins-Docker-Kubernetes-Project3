@@ -17,7 +17,7 @@ spec:
   spec:
    containers:
    - name: myapp
-     image: ameintu/devops:tagversion
+     image: pravallika7824/hello:latest
      ports:
      - containerPort: 8080
 
