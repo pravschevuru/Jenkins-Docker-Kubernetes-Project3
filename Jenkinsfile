@@ -8,7 +8,7 @@ pipeline {
 		PROJECT_ID = 'pragiti-demo-hy'
         CLUSTER_NAME = 'hyvision-gke-cluster'
         LOCATION = 'asia-southeast1-b'
-        CREDENTIALS_ID = 'jenkins-gcr''		
+        CREDENTIALS_ID = 'jenkins-gcr'		
 	}
 	
     stages {
