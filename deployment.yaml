@@ -17,7 +17,7 @@ spec:
   spec:
    containers:
    - name: myapp
-     image: gcr.io/pragiti-demo-hy/test:latest
+     image: pravallika7824/devops:tagversion
      ports:
      - containerPort: 8080
 
