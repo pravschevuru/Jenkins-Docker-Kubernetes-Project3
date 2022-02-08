@@ -37,9 +37,9 @@ pipeline {
 		    steps {
 			    script {
 				    echo "Push Docker Image"
-				    docker.withRegistry('https://gcr.io','gcr:jenkins-gcr')
+				    docker.withRegistry('https://gcr.io','gcr:jenkins-gcr') {
 				        myimage.push("${env.BUILD_ID}")
-				    
+				    }
 			    }
 		    }
 	    }
